@@ -18,9 +18,9 @@ import android.net.Uri;
 import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+import com.android.volley.toolbox.NetworkImageView;
 
-public class CircleImageView extends ImageView {
+public class CircleImageView extends NetworkImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
 
